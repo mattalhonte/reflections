@@ -25,6 +25,10 @@ Made notepad++ my default editor:
 instructions here: http://forums.udacity.com/questions/100245076/not-able-to-commit-in-notepad#ud775
 
 
+CHEAT SHEET:
+https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+
+
 Their Questions:
 What happens when you initialize a repository? Why do you need to do it?
 This makes the folder a git repository - there will be a hidden directory that will track changes.  If you don't do that, git won't track the changes.
