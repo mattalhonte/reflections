@@ -1,0 +1,76 @@
+My notes:
+Comparing two textfiles from Windows command line:
+FC <filename1> <filename2>
+
+
+Starting Notepad++ from Windows command line:
+start notepad++
+start notepad++ <filename>
+
+
+Comparing two textfiles from bash command line:
+diff -u <filename1> <filename2>
+
+
+Creating a new text file
+notepad++ <filename>
+
+
+Copying & pasting in bash:
+https://www.udacity.com/wiki/ud775/command-line-instructions#windows-users
+
+
+Clone whole repository from web: 
+git clone <url>
+
+
+View log (while inside directory):
+git log
+
+
+Stop viewing log:
+q
+
+
+See version differences:
+git diff <serial number 1> <serial number 2>
+
+
+Reset files to previous version
+git checkout <id>
+
+
+
+
+Their Questions:
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+I was able to see what was different between the working and not-working version, which narrowed down the stuff to test out.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You can fiddle and tinker with your code without worrying about whether you'll break something irrecoverably.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros: 
+The history is a lot more readable - you can look through your commits and they'll each have an easily-viewable purpose.  No guesswork.
+Auto-saving could save in awkward places - like riiight before the semicolon.  
+Easier collaboration
+Cons:
+You might forget to save
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is designed with coding in mind, which frequently involves multiple interdependent files.  Google Docs is made with actual writing in mind.
+
+
+How can you use the commands git log and git diff to view the history of files?
+Use git log (navigate with pgup and pgdn, q to quit that view) to see all the commits, in order, each with a unique ID and a brief explanation.  You can then use git diff <id1> <id2> (q to quit that view) to see the differences between those two.
+
+
+How might using version control make you more confident to make changes that could break something?
+You'd feel freer to tinker, since you know you'll have a working version to roll back to.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Coding easier, better, more professionally, more adventurously.  Also collaborating, and having an easily viewable log to see how my code has progressed.
