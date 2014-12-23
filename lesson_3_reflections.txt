@@ -1,0 +1,21 @@
+My notes:
+
+View remote branches:
+git remote
+
+
+Add remote repository:
+git remote add <name you want to use> <url of repository you created>
+
+
+View name & URL for the repository you're going to fetch from and that you're going to push to:
+git remote -v
+
+
+Send committed changes to repository:
+git push
+
+
+Their stuff:
+
+When would you want to create a remote repository rather than keeping all your work local?
